@@ -6,3 +6,20 @@
 p, li:not(nav li) {
     font-size: 14pt;
 }
+
+ul > li > ul {list-style: none;}
+ul>li>ul>li {
+    padding-left: 0.0em;
+    position: relative;
+}
+ul>li>ul>li:after {
+    content: '';
+    height: .35em;
+    width: .35em;
+    background: #58585b;
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 0.5em;
+    left: -1.0em;
+}
