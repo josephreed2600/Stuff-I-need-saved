@@ -1,18 +1,18 @@
+/* BONUS CONTENT */
 .page-title-custom {
     font-size: 4em !important;
     font-weight: bold !important;
     font-family: monospace !important;
 }
-p, li:not(nav li) {
+p, #content li {
     font-size: 14pt;
 }
-
-ul > li > ul {list-style: none;}
-ul>li>ul>li {
+#content ul > li > ul {list-style: none;}
+#content ul>li>ul>li {
     padding-left: 0.0em;
     position: relative;
 }
-ul>li>ul>li:after {
+#content ul>li>ul>li:after {
     content: '';
     height: .35em;
     width: .35em;
