@@ -23,3 +23,6 @@ p, #content li {
     top: 0.5em;
     left: -1.0em;
 }
+#content ul, #content ol {
+    margin-left: 1em;
+}
