@@ -1,0 +1,203 @@
+/*
+Proposed CSS changes for learn.zybooks.com
+These are not perfect, I know. However, they have helped me interact with the book much more effectively.
+Biggest problem for me was the width of the content, then the table of contents.
+*/
+
+.content-resource.programming-submission-payload {
+    width: 100% ;
+}
+
+.content-resource.programming-submission-payload .zylab-inline-editor .ace-editor-container {
+    min-width: unset ;
+}
+
+.develop-program-container .program-container {
+    display: none ;
+}
+
+.develop-submit-control-container {
+    height: auto ;
+    min-height: unset ;
+    width: 100% ;
+}
+
+.develop-submit-control-container .zb-segmented-control {
+    min-width: unset ;
+    width: 100% ;
+}
+
+.develop-submit-control-container .zb-segmented-control button {
+    width: 50%;
+}
+
+.develop-submit-instructions {
+    display: none ;
+}
+
+.not-found-page .section-container, .zybook-chapter-section-loading-page .section-container, .zybook-chapter-section-page .section-container, .zybook-error-page .section-container {
+    min-width: unset;
+}
+
+.not-found-page .section-container, .zybook-chapter-section-loading-page .section-container, .zybook-chapter-section-page .section-container, .zybook-error-page .section-container, .zybook-glossary-page .section-container {
+    max-width: calc(100% - 24px) ;
+}
+
+.not-found-page .section-nav, .not-found-page .zb-card, .zybook-chapter-section-loading-page .section-nav, .zybook-chapter-section-loading-page .zb-card, .zybook-chapter-section-page .section-nav, .zybook-chapter-section-page .zb-card, .zybook-error-page .section-nav, .zybook-error-page .zb-card, .zybook-glossary-page .section-nav, .zybook-glossary-page .zb-card {
+    margin: unset ;
+    max-width: none;
+}
+
+.not-found-page .zybook-section .zb-card-content, .section-preview-modal .zybook-section .zb-card-content, .zybook-chapter-print-page .zybook-section .zb-card-content, .zybook-chapter-section-page .zybook-section .zb-card-content, .zybook-error-page .zybook-section .zb-card-content, .zybook-glossary-page .zybook-section .zb-card-content {
+    max-width: unset;
+}
+
+.program-label {
+    display: none ;
+}
+
+.resource-container.large, .large.interactive-activity-container, .large.static-container {
+    width: unset;
+}
+
+.resource-container.medium, .medium.interactive-activity-container, .medium.static-container {
+    width: unset;
+}
+
+.resource-container.small, .small.interactive-activity-container, .small.static-container {
+    width: unset;
+}
+
+.route-container, main {
+    margin-left: 1vw ;
+    margin-right: 1vw ;
+    margin-top: 2vh ;
+    min-height: 98vh ;
+}
+
+.submit-container {
+    max-width: 97% ;
+}
+
+.zb-feedback {
+    display: none;
+}
+
+.zybook-section p {
+    margin: 0 1.5em 10px 0;
+}
+
+article.zybook-section.zb-card div.zb-card-content {
+    max-width: 90vw ;
+    width: calc(100% - 24px) ;
+}
+
+div.content-resource.html-resource.html-content-resource {
+    max-width: 90vw;
+}
+
+h1.zybook-section-title {
+    margin-top: 0 ;
+}
+
+header.top-toolbar {
+    background-color: rgba(255,255,255,0) ;
+    overflow: hidden ;
+    transition-duration: 0.5s ;
+    width: 60.4px ;
+}
+
+header.top-toolbar .left-buttons {
+    font-size: 2em ;
+    height: 56px ;
+    overflow: hidden ;
+    transition-delay: unset ;
+    transition-duration: unset ;
+    white-space: nowrap ;
+    width: 60.4px  ;
+}
+
+header.top-toolbar .left-buttons .logo {
+    display: none ;
+}
+
+header.top-toolbar .left-buttons ul.bread-crumbs {
+    overflow-x: hidden ;
+    white-space: nowrap ;
+    width: calc(100vw - 60.4px) ;
+}
+
+header.top-toolbar .right-buttons, header.top-toolbar:hover .right-buttons {
+    display: none ;
+}
+
+header.top-toolbar:hover {
+    background-color: rgba(255,255,255,1) ;
+    font-size: 1em ;
+    height: 5em ;
+    overflow-x: hidden ;
+    overflow-y: visible ;
+    transition-duration: 0.25s ;
+    width: 100vw ;
+}
+
+header.top-toolbar:hover .left-buttons {
+    font-size: 2em ;
+    overflow: hidden ;
+    transition-delay: unset ;
+    transition-duration: unset ;
+    white-space: nowrap ;
+    width: 100vw ;
+}
+
+header.top-toolbar:hover .left-buttons ul.bread-crumbs {
+    overflow-x: hidden ;
+    white-space: nowrap ;
+    width: calc(100vw - 60.4px) ;
+}
+
+section.right-panel-section {
+    display: none ;
+}
+
+section.section-container .section-announcement.zb-card {
+    display: none ;
+}
+
+section.section-container.no-margin-left {
+    margin: 0 ;
+}
+
+section.toc-container {
+    max-width: none ;
+}
+
+section.toc-container .table-of-contents .chapter-item.expanded {
+    margin-bottom: 0 ;
+    margin-top: 0 ;
+}
+
+section.toc-container .table-of-contents .table-of-contents-list {
+    max-height: none ;
+}
+
+section.toc-container .table-of-contents .table-of-contents-list > li.toc-item.chapter-item.expanded > div > div > div.section-list-container > ul.section-list > li.toc-item.section-item > div.section-item-controls.item-controls {
+    height: 2em ;
+}
+
+section.toc-container .table-of-contents .toc-header, section.toc-container .table-of-contents .toc-header-common {
+    height: 2.5em ;
+}
+
+section.toc-container .table-of-contents .toc-header-common.chapter-actions {
+    display: none ;
+}
+
+section.toc-container .table-of-contents .toc-header.about-toc-header {
+    display: none ;
+}
+
+ul.bread-crumbs > a.bread-crumb:first-of-type, ul.bread-crumbs > span.divider:first-of-type {
+    display: none ;
+}
+
